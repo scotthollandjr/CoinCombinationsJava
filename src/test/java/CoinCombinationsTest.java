@@ -8,10 +8,10 @@ public class CoinCombinationsTest {
   public void runCoinCombination_shouldReturnQuarters_ArrayList() {
     CoinCombinations changeTest = new CoinCombinations();
     ArrayList<Object> expected = new ArrayList<Object>();
-    expected.add("Quarters: " + 2);
-    expected.add("Dimes: " + 0);
-    expected.add("Nickels: " + 0);
-    expected.add("Pennies: " + 0);
+    expected.add(2);
+    expected.add(0);
+    expected.add(0);
+    expected.add(0);
     assertEquals(expected, changeTest.runCoinCombination(50));
   };
 
@@ -19,10 +19,10 @@ public class CoinCombinationsTest {
   public void runCoinCombination_shouldReturnDimes_ArrayList() {
     CoinCombinations changeTest = new CoinCombinations();
     ArrayList<Object> expected = new ArrayList<Object>();
-    expected.add("Quarters: " + 2);
-    expected.add("Dimes: " + 1);
-    expected.add("Nickels: " + 0);
-    expected.add("Pennies: " + 0);
+    expected.add(2);
+    expected.add(1);
+    expected.add(0);
+    expected.add(0);
     assertEquals(expected, changeTest.runCoinCombination(60));
   };
 
@@ -30,10 +30,10 @@ public class CoinCombinationsTest {
   public void runCoinCombination_shouldReturnNickels_ArrayList() {
     CoinCombinations changeTest = new CoinCombinations();
     ArrayList<Object> expected = new ArrayList<Object>();
-    expected.add("Quarters: " + 2);
-    expected.add("Dimes: " + 1);
-    expected.add("Nickels: " + 1);
-    expected.add("Pennies: " + 0);
+    expected.add(2);
+    expected.add(1);
+    expected.add(1);
+    expected.add(0);
     assertEquals(expected, changeTest.runCoinCombination(65));
   };
 
@@ -41,10 +41,10 @@ public class CoinCombinationsTest {
   public void runCoinCombination_shouldReturnPennies_ArrayList() {
     CoinCombinations changeTest = new CoinCombinations();
     ArrayList<Object> expected = new ArrayList<Object>();
-    expected.add("Quarters: " + 2);
-    expected.add("Dimes: " + 1);
-    expected.add("Nickels: " + 1);
-    expected.add("Pennies: " + 1);
+    expected.add(2);
+    expected.add(1);
+    expected.add(1);
+    expected.add(1);
     assertEquals(expected, changeTest.runCoinCombination(66));
   };
 
